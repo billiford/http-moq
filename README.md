@@ -45,7 +45,7 @@ func (c *Client) GetSomething(id string) (Something, error) {
   return Something{}, nil
 }
 
-// WithClient sets the underlying HTTP client for Foo to use.
+// WithClient sets the underlying HTTP client to call the Foo service with.
 func (c *Client) WithClient(client *http.Client) {
   c.c = client
 }
