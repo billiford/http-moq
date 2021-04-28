@@ -1,6 +1,6 @@
 # http-moq
 
-Interfacing all the things is [bad practice](https://about.sourcegraph.com/go/idiomatic-go/#Interface-All-The-Things), 
+*Interfacing All The Things* is [bad practice](https://about.sourcegraph.com/go/idiomatic-go/#Interface-All-The-Things), 
 and yet we have several packages that are dedicated to allowing you to create and mock interfaces in Go 
 (including [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter), which is used in this package). 
 This is often used where it shouldn't be - mocking your HTTP client wrappers with something like the following:
